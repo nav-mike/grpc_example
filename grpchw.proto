@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package grpchw;
+
+service Olap {
+  rpc GetMessage (MsgRequest) returns (MsgReply) {}
+}
+
+message MsgRequest {
+  string name = 1;
+}
+
+message MsgReply {
+  string message = 1;
+}

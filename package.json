@@ -1,0 +1,13 @@
+{
+  "name": "grpchw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.2",
+    "grpc": "^1.24.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
